@@ -16,12 +16,14 @@ Mappings are not provided by default but can easily be added to your `.vimrc`.
   ```vim
   au FileType json noremap <buffer> <silent> <expr> <leader>p jsonpath#echo()
   au FileType json noremap <buffer> <silent> <expr> <leader>g jsonpath#goto()
+  au FileType json noremap <buffer> <silent> <expr> <leader>c jsonpath#copy()
   ```
 
 * If you want global mappings:
   ```vim
   noremap <silent> <expr> <leader>p jsonpath#echo()
   noremap <silent> <expr> <leader>g jsonpath#goto()
+  noremap <silent> <expr> <leader>c jsonpath#copy()
   ```
 
 ## Installation
